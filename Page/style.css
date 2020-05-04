@@ -1,4 +1,4 @@
-body{
+.Body{
     background-image: url(background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -292,7 +292,7 @@ body{
   border-radius: 3px;
 }
 
-footer{
+.Footer{
   color: black;
   text-align: right;
   font-style: oblique;
