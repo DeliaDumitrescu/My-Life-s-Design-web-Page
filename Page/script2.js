@@ -73,6 +73,9 @@ document.getElementById("submit-button").addEventListener("click", function()
   var age = document.getElementById("age");
   var goal = document.getElementById("goal");
 
+  //console.log(firstName.value, lastName.value, age.value, goal.value);
+  document.getElementById("PersonalInfo").innerHTML = firstName.value + "<br>" + lastName.value + "<br>" + age.value + "<br>" + goal.value;
+
   localStorage.setItem("First Name", firstName.value);
   localStorage.setItem("Last Name", lastName.value);
   localStorage.setItem("Age", age.value);
