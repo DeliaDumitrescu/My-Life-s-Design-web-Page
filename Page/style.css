@@ -343,6 +343,21 @@
     color: #fff;
 }
 
+.personalInfo{
+  background-color: rgb(255, 255, 255, .8);
+  width: 190px;
+  height: 75px;
+  text-align: center;
+  font-weight: bold;
+  padding: 9px;
+  padding-bottom: 10px;
+  margin-left: 800px;
+  font-size: 18px;
+  border: 15px solid rgb(111, 242, 242, 0.4);
+  border-radius: 5px;
+
+}
+
 @media only screen and (max-width: 768px) {
 .title{
   font-size: 30px;
@@ -442,10 +457,14 @@
   margin-left: 170px;
 }
 
+.personalInfo{
+  display: none;
+}
+
 }
 
 
-@media screen and (min-width:768px) and (max-width: 1280px){
+@media screen and (min-width:768px) and (max-width: 1042px){
 
 .delete-button{
   left: 560px;
@@ -516,16 +535,55 @@
 }
 }
 
+
+@media screen and (min-width: 1475px) and (max-width: 1750px)
+{
+
+.delete-button{
+  left: 600px;
+}
+
+.edit-button{
+  left: 650px;
+}
+
 .personalInfo{
-  background-color: rgb(255, 255, 255, .8);
-  width: 190px;
-  height: 75px;
-  text-align: center;
-  font-weight: bold;
-  padding: 9px;
-  margin-left: 800px;
-  font-size: 18px;
-  border: 15px solid rgb(111, 242, 242, 0.4);
-  border-radius: 5px;
+  margin-left: 700px;
+}
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1474px)
+{
+
+.delete-button{
+  left: 500px;
+}
+
+.edit-button{
+  left: 550px;
+}
+
+.personalInfo{
+  display: none;
+}
 
 }
+
+
+@media screen and (min-width: 1041px) and (max-width: 1400px)
+{
+
+.delete-button{
+  left: 700px;
+}
+
+.edit-button{
+  left: 750px;
+}
+
+.personalInfo{
+  display: none;
+}
+}
+
+
