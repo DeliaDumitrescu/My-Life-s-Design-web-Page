@@ -27,3 +27,9 @@
 ## Backend API 
 - [x] Creare server Backend
 - [x] CRUD API (Create, Read, Update si Delete) pentru a servi Frontend-ului 
+
+## Demo
+![](demophotos/1.png) <br>
+![](demophotos/2.png) <br>
+![](demophotos/3.png) <br>
+![](demophotos/4.png) <br>
