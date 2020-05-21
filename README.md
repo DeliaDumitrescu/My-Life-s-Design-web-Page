@@ -24,6 +24,6 @@
 - [x] Folosirea evenimentelor JavaScript declansate de mouse/tastatura 
 - [x] Utilizarea AJAX (GET, POST, PUT, DELETE)
 - [x] Folosirea localStorage
-### Backend API 
+## Backend API 
 - [x] Creare server Backend
 - [x] CRUD API (Create, Read, Update si Delete) pentru a servi Frontend-ului 
